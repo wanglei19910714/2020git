@@ -21,7 +21,6 @@ export interface ApiData{
   posters:PosterItem[];
   invitations:string[];
   name2:string;
-  name3:string;
 }
 
 
