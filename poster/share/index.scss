@@ -1,0 +1,78 @@
+.wrap {
+  height: 100vh;
+  .main {
+    background: url('../assets/bg7.png');
+    height: 1134px;
+    background-size: cover;
+    .poster_img {
+      text-align: center;
+      img {
+        width: 520px;
+        height: 921px;
+        background: #FEF9F3;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .share_btn {
+    width: 520px;
+    height: 96px;
+    line-height: 96px;
+    text-align: center;
+    background: linear-gradient(270deg, #FFAC40 0%, #FF7F01 100%);
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 34px;
+    font-weight: 500;
+    margin: 42px auto 0 auto;
+  }
+
+  .invitation_words {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+  }
+
+  .modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 200;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .close{
+      width: 100%;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      display: flex;
+      justify-content: flex-end;
+      img{
+        width: 45px;
+        height: 45px;
+      }
+    }
+    .poster_img {
+      // width: 624px;
+      // height: 1105px;
+      width: 76%;
+      height: 76%;
+      margin-bottom: 50px;
+      border-radius: 20px;
+    }
+
+    p {
+      font-size: 36px;
+      color: #fff;
+      letter-spacing: 12px;
+    }
+  }
+
+}

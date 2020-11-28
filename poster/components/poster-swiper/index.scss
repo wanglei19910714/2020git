@@ -1,0 +1,56 @@
+.wrapper {
+  width: 100%;
+  height: 1008px;
+  :global {
+    .swiper-container {
+      overflow-y: visible;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 1008px;
+
+      .swiper-wrapper {
+        height: 851px;
+        margin-top: -80px;
+        .swiper-slide {
+          width: 63.793%;
+          height: 851px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+          }
+        }
+
+        .swiper-slide-active {
+          transform: scale(1.1);
+        }
+      }
+
+    }
+
+    .swiper-pagination-fraction,
+    .swiper-pagination-custom,
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+      bottom: 15px;
+      left: 0;
+      width: 100%;
+    }
+
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background: #FFF;
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      width: 30px;
+      height: 12px;
+      background: #FF9F30;
+      border-radius: 6px;
+    }
+  }
+}

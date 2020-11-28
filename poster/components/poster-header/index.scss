@@ -1,0 +1,43 @@
+.wrap{
+  padding-top: 16px;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+  .login{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    img{
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+      margin-right: 8px;
+    }
+    .phone{
+      font-size: 18px;
+      color: #FF9133;
+      margin-left: 7px;
+    }
+    .account{
+      font-size: 18px;
+      color: #FF9133;
+      margin-left: 7px;
+    }
+  }
+  .record{
+    width: 144px;
+    height: 48px;
+    // background: #FF9133;
+    background: transparent;
+    border-radius: 100px 0 0 100px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    // color: #FFF;
+    color: transparent;
+    line-height: 18px;
+    float: right;
+    padding-top: 16px;
+  }
+  
+}

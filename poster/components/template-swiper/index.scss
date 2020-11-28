@@ -1,0 +1,34 @@
+.wrapper{
+  padding: 0 30px;
+  :global{
+
+    .swiper-container{
+      height: 160px;
+      .swiper-wrapper{
+        display: flex;
+        align-items: flex-end;
+      }
+      .swiper-slide{
+        width: 74px;
+        height: 136px;
+        margin: 0 30px;
+        
+        img{
+          width: 74px;
+          height: 130px;
+          position: absolute;
+          bottom: 0;
+        }
+      }
+      .swiper-slide-active,.swiper-slide-duplicate-active{
+        transform: scale(1.2);
+      }
+    }
+    
+    
+    .swiper-pagination-bullet{
+      background: rgb(13, 231, 79);
+    }
+    
+  }
+}

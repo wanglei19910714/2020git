@@ -1,0 +1,81 @@
+.wrap{
+    background: #fff;
+    height: 100vh;
+    .main{
+        width: 100%;
+        height: 1165px;
+        background: url('../assets/bg7.png');
+        background-size: cover;
+    }
+     
+  .personalized-btn {
+        position: relative;
+        display: block;
+        font-size: 34px;
+        width: 520px;
+        height: 96px;
+        background: linear-gradient(270deg, #FFAC40 0%, #FF7F01 100%);
+        border-radius: 48px;
+        line-height: 96px;
+        color: #fff;
+        margin: 42px auto 0 auto;
+        text-align: center;
+        font-weight: normal;
+        .bubble{
+            position: absolute;
+            left: 335px;
+            bottom: 65px;
+            width: 260px;
+            height: 68px;
+            line-height: 56px;
+            text-align: center;
+            background: url('../assets/bubble.png');
+            background-size: cover;
+            font-size: 18px;
+            font-weight: 400;
+            color: #793004;
+        }
+    }
+    .normal_btn{
+        width: 520px;
+        height: 96px;
+        background: linear-gradient(270deg, #FFAC40 0%, #FF7F01 100%);
+        border-radius: 48px;
+        font-size: 34px;
+        font-weight: 500;
+        color: #FFF;
+        text-align: center;
+        line-height: 96px;
+        margin: 42px auto 0 auto;
+   }
+
+    .login_wrap{
+        position: relative;
+        .login_btn{
+            width: 520px;
+            height: 96px;
+            background: linear-gradient(270deg, #FFAC40 0%, #FF7F01 100%);
+            border-radius: 48px;
+            font-size: 34px;
+            font-weight: 500;
+            color: #FFF;
+            text-align: center;
+            line-height: 96px;
+            margin: 42px auto 0 auto;
+       }
+       .bubble{
+            position: absolute;
+            left: 450px;
+            bottom: 65px;
+            width: 260px;
+            height: 68px;
+            line-height: 56px;
+            text-align: center;
+            background: url('../assets/bubble.png');
+            background-size: cover;
+            font-size: 18px;
+            font-weight: 400;
+            color: #793004;
+        }
+    }
+}
