@@ -6,8 +6,6 @@ export interface PosterItem{
   qrcodeLink:string;
   indicationTemplateLink:string;
   buildTemplateLink:string;
-  xcoordinate:number;
-  ycoordinate:number;
   qrcodeLength:number;
 }
 
