@@ -3,3 +3,4 @@ export const ACTIVITY_CODE = 'SUNFLOWER_MOTHER';
 
 
 
+export const UU='888'
