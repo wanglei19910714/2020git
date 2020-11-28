@@ -20,6 +20,7 @@ export interface ApiData{
   bubbleCopywriting:string;
   posters:PosterItem[];
   invitations:string[];
+  name2:string;
 }
 
 
